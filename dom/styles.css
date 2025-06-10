@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Wrapper styling */
+#wrapper {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1e1e2f;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Header styling */
+#page-banner {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#page-banner h1.title {
+    font-size: 3em;
+    color: #ffcc00;
+}
+
+#page-banner p {
+    color: #ddd;
+    font-size: 1.2em;
+}
+
+/* Movie list styling */
+#movie-list h2.title {
+    margin-bottom: 15px;
+    font-size: 2em;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+#movie-list ul {
+    list-style: none;
+}
+
+#movie-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e4d;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#movie-list li:hover {
+    background-color: #3d3d5c;
+}
+
+#movie-list .name {
+    font-size: 1.1em;
+}
+
+#movie-list .delete {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#movie-list .delete:hover {
+    background-color: #e60000;
+}
+
+/* Add movie form */
+#add-movie {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#add-movie input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+}
+
+#add-movie button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #ffcc00;
+    color: #333;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-movie button:hover {
+    background-color: #e6b800;
+}
